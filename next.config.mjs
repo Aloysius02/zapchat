@@ -14,7 +14,7 @@ const nextConfig = {
     return [
       {
         source: '/api/:path*', // Match all requests starting with /api
-        destination: 'https://zap-chat-api.onrender.com/api/:path*', // Proxy to the backend
+        destination: 'https://zapchato-api.onrender.com/api/:path*', // Proxy to the backend
       },
     ];
   },
